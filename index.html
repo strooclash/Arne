@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clasn of Clans</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <!--
+
+                    <a href="index.html"><img src="img/appLogo.png" alt="App Logo" height="100px" id="headerPhoto"></a>
+                    <ul id="myLinks">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="#tittle">Clash of Clans</a></li>
+                        <li><a href="#gameplay">Gameplay</a></li>
+                        <li><a href="#characters">Characters</a></li>
+                        <li><a href="#dev">Dev</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a href="javascript:void(0);" class="icon" id="hamburger" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+        -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="img/appLogo.png" alt="App Logo" height="100px" id="headerPhoto"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    </li>
+                    <li class="nav-item">
+                    <li><a href="#tittle">Clash of Clans</a></li>
+                    </li>
+                    <li class="nav-item">
+                    <li><a href="#gameplay">Gameplay</a></li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Characters
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#characters">Troops</a>
+                            <a class="dropdown-item" href="#characters">Heroes</a>
+                            <a class="dropdown-item" href="#characters">Siedge</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                    <li><a href="#dev">Dev</a></li>
+                    </li>
+                    <li class="nav-item">
+                    <li><a href="#contact">Contact</a></li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+        <!--<div class="section1">
+            <div class="center">
+                <figure>
+                    <img src="img/clashOfClansLogo2.jpg" alt="Logo van Clash of Clans" height="200px">
+                    <figcaption>Build friendships and destroy your enemies!</figcaption>
+                </figure>
+            </div>
+        </div>-->
+
+        <div class="jumbotron">
+            <h1 class="display-3 ">Clash of Clans</h1>
+
+            <p class="lead">Build friendships and destroy your enemies!</p>
+            <p>Download now and get 250 gems for free!</p>
+
+
+            <p class="lead">
+                <a id="downloadbutton" class="btn btn-outline-dark btn-lg" href="#" role="button" data-toggle="modal"
+                   data-target="#mymodal">Download</a>
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="w-50 offset-3">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/carousel1.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Gold pass</h3>
+                                <p>play challenges and win a massive amount of special items</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carousel2.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Clan games</h3>
+                                <p>Accomplish tasks and win even more special items</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carousel3.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Clan war leagues</h3>
+                                <p>Battle against other clans and be #1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal" tabindex="-1" role="dialog" id="mymodal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Download Clash of Clans</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://youtube.be/embed/OxsfS_wIAok" id="video"
+                                    allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                        <p>Click on the button below to download Clash of Clans</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Go to appstore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- copy from barbarian-page below-->
+
+        <div class="section2">
+            <div class="center">
+                <div id="tittle" class="navLinks"></div>
+                <h1 class="tusseTittel">Clash of Clans</h1>
+
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12"><p class="fontType1"><b>Clash of
+                        Clans</b>
+                        is a
+                        <b>freemium mobile strategy video game</b> developed and published by <b>Finnish</b> game
+                        developer
+                        <b>Supercell</b>. The game was released for <b>iOS</b> platforms on August 2, 2012, and on <b>Google
+                            Play</b>
+                        for <b>Android</b> on October 7, 2013.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="fontType1">The game is set in a fantasy-themed persistent world where the player is a
+                            chief of
+                            a
+                            village.
+                            Clash of Clans tasks players to build their own town using the resources gained from
+                            attacking other
+                            players
+                            through the game's fighting features. The main resources are gold, elixir and dark elixir.
+                            Players
+                            can
+                            conjoin
+                            to create clans, groups of up to fifty people who can then participate in Clan Wars
+                            together, donate
+                            and
+                            receive
+                            troops, and chat with each other.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <p>Contents</p>
+        <ol>
+            <a href="#gameplay">
+                <li>Gameplay</li>
+            </a>
+            <a href="#dev">
+                <li>Development and release</li>
+            </a>
+            <a href="#marketing">
+                <li>Marketing</li>
+            </a>
+            <a href="#reception">
+                <li>Reception</li>
+            </a>
+            <a href="#references">
+                <li>References</li>
+            </a>
+
+        </ol>
+        -->
+
+        <div class="section1">
+            <div class="center">
+                <div id="gameplay" class="navLinks"></div>
+                <h1 class="tusseTittel">Gameplay</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <p class="fontType1"><a href="https://en.wikipedia.org/wiki/Clash_of_Clans" target="_blank">Clash
+                            of
+                            Clans</a>
+                            is an
+                            online multiplayer game in which players form communities called clans, train troops, and
+                            attack
+                            other
+                            players to earn resources.
+                        </p>
+                        <img src="img/gameplay_aanval.jpg" alt="" width="100%">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="fontType1">
+                            There are four currencies or resources in the game. Gold and elixir can be used
+                            to build
+                            and
+                            reload defenses that protect the player from other players' attacks.</p>
+                        <img src="img/gameplay_base.jpg" alt="" width="100%">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="fontType1">
+                            Elixir and dark elixir are also
+                            used to
+                            train and upgrade troops and spells. Gems are the premium currency. Attacks are rated on a
+                            three-star scale
+                            and
+                            have a maximum timed length of three minutes.
+
+                            The game also features a pseudo-single-player campaign in which the player can attack a
+                            series of
+                            fortified
+                            goblin villages and earn gold, elixir and dark elixir (levels 51-75 only).
+                        </p>
+                        <img src="img/gameplay_goblinmaps.jpg" alt="" width="100%">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="fontType1">
+                            The game starts with two
+                            builders,
+                            but the player can have up to five builders through buying them with gems.O.T.T.O is an
+                            invention
+                            created by the Master Builder available at Builder Hall 9. Once unlocked, O.T.T.O takes over
+                            primary
+                            building duties in the Builder Base, freeing up the Master Builder to complete additional
+                            upgrades
+                            within the Builder Base or travel to the Home Village as an additional builder allowing you
+                            to have
+                            up to 6 builders.</p>
+                        <img src="img/gameplay_bouwer.jpg" alt="" width="100%">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="section2">
+            <div class="center">
+                <div id="characters" class="navLinks"></div>
+                <h1 class="tusseTittel">Characters</h1>
+                <hr class="paddingB">
+
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <img src="img/Barbarian_info.png" alt="Barbarian"
+                                 class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Barbaar</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 230</li>
+                                    <li class="list-group-item">dps: 38</li>
+                                    <li class="list-group-item">movement speed: 16</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <img src="img/Wizard_info.png" alt="Barbarian" class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Wizard</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 230</li>
+                                    <li class="list-group-item">dps: 230</li>
+                                    <li class="list-group-item">movement speed: 16</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <img src="img/Dragon_info.png" alt="Barbarian" class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Dragon</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 4200</li>
+                                    <li class="list-group-item">dps: 330</li>
+                                    <li class="list-group-item">movement speed: 16</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <img src="img/Golem.png" alt="Barbarian" class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Golem</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 7500</li>
+                                    <li class="list-group-item">dps: 75</li>
+                                    <li class="list-group-item">movement speed: 12</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <img src="img/Wall_Wrecker.png" alt="Barbarian"
+                                 class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Wall Wrecker</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 6100</li>
+                                    <li class="list-group-item">dps: 350</li>
+                                    <li class="list-group-item">movement speed: 12</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <img src="img/Stone_Slammer.png" alt="Barbarian"
+                                 class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Stone Slammer</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 6200</li>
+                                    <li class="list-group-item">dps: 600</li>
+                                    <li class="list-group-item">movement speed: 16</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="card">
+                            <img src="img/Grand_Warden.png" alt="Barbarian"
+                                 class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Grand Warden</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 3440</li>
+                                    <li class="list-group-item">dps: 299</li>
+                                    <li class="list-group-item">movement speed: 16</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="card">
+                            <img src="img/Barbarian_King.png" alt="Barbarian"
+                                 class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Barbarian King</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 9300</li>
+                                    <li class="list-group-item">dps: 500</li>
+                                    <li class="list-group-item">movement speed: 16</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="card">
+                            <img src="img/Archer_Queen.png" alt="Barbarian"
+                                 class="card-img-top img-fluid d-block w-100">
+                            <div class="card-body">
+                                <h3 class="card-text">Archer queen</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">hp: 3190</li>
+                                    <li class="list-group-item">dps: 781</li>
+                                    <li class="list-group-item">movement speed: 24</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="section1">
+            <div class="center">
+                <div id="dev" class="navLinks"></div>
+                <h1 class="tusseTittel">Development and release</h1>
+                <hr>
+                <p class="fontType1">Clash of Clans was developed by Supercell, the company behind other popular mobile
+                    games
+                    like
+                    Hay Day.[25] The game was released for iOS platforms on August 2, 2012,[1] and on Google Play for
+                    Android on
+                    October 7, 2013.</p>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="center">
+
+                <h1 id="marketing" class="tusseTittel">Marketing</h1>
+                <hr>
+                <p class="fontType1">The game is heavily promoted.[26] In February 2015, Supercell released their Clash
+                    of Clans
+                    Super Bowl XLIX commercial, featuring Liam Neeson parodying his character from Taken.[27] On
+                    February 2,
+                    Business Insider reported the ad as the 5th most watched Super Bowl ad,[28] though on February 6,
+                    VentureBeat
+                    reported the ad was the most viewed of those that appeared on the Super Bowl.[29] YouTube users
+                    later voted
+                    the
+                    advertisement the second best Super Bowl ad, behind Nissan's "With Dad" ad.[30]
+
+                    On September 23, 2015, Taiwanese singers JJ Lin and Jimmy Lin released the game's theme song "全面开战"
+                    ("Fight
+                    on
+                    All Fronts" in English), which was sung in Mandarin.</p>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                    commercial 1
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/pvZgRNOUQZg"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                    commercial 2
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/434cGQAc3E0"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                    commercial 3
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ephVxu_D6P8"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section1">
+            <div class="center">
+                <h1 id="reception" class="tusseTittel">Reception</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-4 col-sm-6">
+                        <p class="fontType1">Clash of Clans has received generally positive reviews. The iOS version
+                            holds
+                            an
+                            aggregate
+                            score of 74 out of 100 on Metacritic,[33] and 80% on GameRankings.[32]
+
+                            Gamezebo's Leif Johnson was impressed, scoring the game 4.5 out of 5. Although he felt the
+                            gameplay
+                            was
+                            heavily
+                            skewed to encourage the player to purchase gems, he praised the addition of a single-player
+                            campaign. He
+                            concluded that "Clash of Clans is a simple game, but that's more of a strength than a
+                            weakness.
+                            It's
+                            simple
+                            enough to provide quick, painless matches on an iPhone in an idle moment, and there are
+                            enough
+                            different
+                            units
+                            to choose from in the battle mode to make playing against other players endlessly rewarding.
+                            Best of
+                            all,
+                            the
+                            option to fight against NPC goblins gives Clash of Clans a small edge over similar strategy
+                            games
+                            that rely
+                            almost entirely on player-versus-player combat."[35]
+
+                            Pocket Gamer's Peter Willington was equally impressed, scoring the game 9 out of 10 and
+                            giving
+                            it a
+                            "Gold
+                            Award".</p>
+                    </div>
+                    <div class="col-xl-4 col-sm-6">
+                        <p class="fontType1">
+
+
+                            Reviewing the game several months after it was released for iOS devices, Willington praised
+                            the game
+                            for
+                            requiring real strategy to play. He wrote that the gameplay was built on the progression of
+                            "requiring more
+                            and
+                            more sophisticated units, asking you to strategise and really think about which elements you
+                            should
+                            focus on
+                            building within your camp." He concluded that "Clash of Clans is a superb game, freemium or
+                            otherwise, with
+                            more
+                            nuance than most give it credit for. That's why it's passed the test of time since its
+                            launch
+                            and
+                            still has
+                            an
+                            active community devotedly constructing elaborate fortresses in the hope of becoming
+                            invincible."[7]
+
+                            148App's Rob Rich scored the game 3.5 out of 5, writing "It's great to play an online
+                            freemium
+                            game
+                            that
+                            doesn't
+                            shy away from the single-player experience but also offers up some honest-to-goodness direct
+                            interaction,
+                            which
+                            is a very rare combination these days. It probably won't warm the hearts of any haters out
+                            there,
+                            but it
+                            does
+                            give genre fans something with a bit more action and strategy than they might be used
+                            to."[8]
+
+                        </p>
+                    </div>
+                    <div class="col-xl-4 col-sm-8 offset-sm-2 offset-xl-0">
+                        <p class="fontType1">
+
+                            Tom's
+                            Guide
+                            enjoyed the player interaction.[5]
+
+                            Modojo's John Bedford scored the game 3 out of 5. He was critical of freemium gaming in
+                            general,
+                            writing
+                            "The
+                            novelty hasn't just worn off this particular style of greedy gaming, it's shriveled up and
+                            condensed
+                            itself
+                            into
+                            an infinitely dense singularity of self-loathing." Of the game itself, he concluded, "This
+                            is a
+                            game
+                            that
+                            follows in the footsteps of no small number of titles that have made feverish demands on our
+                            wallets
+                            in
+                            exchange
+                            for just a slightly thicker slice of the gameplay. It's possible you have an unending
+                            appetite
+                            for
+                            these
+                            micromanagement titles, in which case we recommend getting heartily stuck into Supercell's
+                            latest
+                            game.
+                            While
+                            Clash of Clans brings something new to accompany its competent but unexceptional empire
+                            gameplay,
+                            for most
+                            of us
+                            it'll be a case of too little, too late."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="center">
+                <h1 id="references" class="tusseTittel">References</h1>
+                <ol>
+                    <li><a href="https://www.slidetoplay.com/index.html" target="_blank">"Clash of Clans"</a>. Slide to
+                        Play.
+                        Retrieved June 8, 2014.
+                    </li>
+                    <li>Koueider, Adam (October 8, 2013). <a
+                            href="https://www.androidauthority.com/clash-of-clans-hits-the-play-store-281354/"
+                            target="_blank">"Clash
+                        of Clans finally hits the Google Play Store"</a>. Androidauthority. Retrieved November 20, 2013.
+                    </li>
+                    <li>andalian (June 26, 2016). <a href="https://www.giantbomb.com/clash-of-clans/3030-40108/"
+                                                     target="_blank">"Clash
+                        of Clans"</a>. Giant Bomb. BS Interactive Inc. Retrieved July 3, 2017.
+                    </li>
+
+
+                </ol>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="center">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div id="contactLinks">
+
+                        <div class="row bacoDarkGray">
+                            <div id="contact" class="navLinks"></div>
+                            <h2>Contact</h2>
+                            <img src="img/ik.jpg" alt="Me, myself and I" height="150px" class="d-block"/>
+
+                            <p>Mobile Game <span title="development">dev.</span></p>
+                        </div>
+                        <div class="row">
+
+                            <a href="https://www.youtube.com/watch?v=vv8MI_y1Lsg">Intro video!</a>
+                            </br>
+
+                            <br>
+                            <a href="mailto: ditisnep@gmail.com">ditisnep@gmail.com</a>
+                            </br>
+                            <p>+32 3 555 48 48</p>
+                            </br></br>
+
+
+                            <p>Itämerenkatu 11<br> 00180 Helsinki <br> Finland</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="contactRechts">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe width="100%" height="100%" id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=It%C3%A4merenkatu%2011-13%2000180%20Helsinki&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <a href="https://www.embedgooglemap.net/blog/best-vpn/">here’s a good list</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- social media icons-->
+            <div class="row">
+                <div class="col">
+                    <div id="socialMedia">
+                        <div style="font-size: 100%;">
+                            <a href="https://www.instagram.com/TangYauHoong/" target="_blank"><i
+                                    class="fab fa-instagram fa-7x"></i></a>
+                            <a href="https://twitter.com/TangYauHoong" target="_blank"><i
+                                    class="fab fa-twitter fa-7x"></i></a>
+                            <a href="https://www.facebook.com/TangYauHoong.art" target="_blank"><i
+                                    class="fab fa-facebook fa-7x"></i></a>
+                            <a href="https://www.pinterest.com/tangyauhoong/" target="_blank"><i
+                                    class="fab fa-pinterest fa-7x"></i></a>
+                            <a href="https://www.flickr.com/photos/tangyauhoong" target="_blank"><i
+                                    class="fab fa-flickr fa-7x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</div>
+
+<script>
+    var menuInitialized = false;
+
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+    function bodyFunction() {
+        var mq = window.matchMedia("(min-width: 760px)");
+        if (mq.matches) {
+            // window width is greater than 760px
+            document.getElementById("myLinks").style.display = "block";
+            menuInitialized = false;
+        } else {
+            if (!menuInitialized) {
+                document.getElementById("myLinks").style.display = "none";
+                menuInitialized = true;
+            }
+        }
+    }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
